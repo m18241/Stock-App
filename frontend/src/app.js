@@ -11,12 +11,6 @@ function App() {
 
   const API_URL = const API_URL = process.env.REACT_APP_API_URL;
   const API_URL = process.env.REACT_APP_API_URL;
-
-// Example use
-async function getData() {
-  const response = await fetch(`${API_URL}/api/some-endpoint`);
-  const data = await response.json();
-  console.log(data);
 }
 
   useEffect(() => {
