@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+yfinance
+beautifulsoup4
+transformers
+torch
+celery
+redis
+requests
